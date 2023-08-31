@@ -61,3 +61,4 @@ internal/sdk/pkg/models/shared/filter.go
 USAGE.md
 internal/provider/provider.go
 examples/provider/provider.tf
+.gitattributes

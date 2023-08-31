@@ -2,8 +2,8 @@ configVersion: 1.0.0
 management:
   docChecksum: b3cde103f3a8cd2dc7100b66267790bb
   docVersion: 0.1.0
-  speakeasyVersion: 1.74.16
-  generationVersion: 2.88.2
+  speakeasyVersion: 1.76.1
+  generationVersion: 2.89.1
 generation:
   comments:
     disableComments: false
@@ -14,10 +14,10 @@ generation:
   tagNamespacingDisabled: false
 features:
   terraform:
-    core: 2.84.1
+    core: 2.85.0
     globalServerURLs: 2.82.0
     inputOutputModels: 2.81.1
 terraform:
-  version: 1.4.0
+  version: 1.5.0
   author: vitor-test
   packageName: AcmeTerraform
