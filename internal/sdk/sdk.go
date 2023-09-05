@@ -112,8 +112,8 @@ func New(opts ...SDKOption) *AcmeGo {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "terraform",
 			OpenAPIDocVersion: "0.1.0",
-			SDKVersion:        "1.6.1",
-			GenVersion:        "2.93.0",
+			SDKVersion:        "1.6.2",
+			GenVersion:        "2.96.3",
 		},
 	}
 	for _, opt := range opts {
