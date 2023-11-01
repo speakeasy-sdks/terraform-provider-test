@@ -11,3 +11,24 @@ type Filters struct {
 	// The offset to start the query from.
 	Offset int64 `json:"offset"`
 }
+
+func (o *Filters) GetFilters() []Filter {
+	if o == nil {
+		return []Filter{}
+	}
+	return o.Filters
+}
+
+func (o *Filters) GetLimit() int64 {
+	if o == nil {
+		return 0
+	}
+	return o.Limit
+}
+
+func (o *Filters) GetOffset() int64 {
+	if o == nil {
+		return 0
+	}
+	return o.Offset
+}

@@ -8,3 +8,24 @@ type Filter struct {
 	Matchtype string `json:"matchtype"`
 	Value     string `json:"value"`
 }
+
+func (o *Filter) GetField() string {
+	if o == nil {
+		return ""
+	}
+	return o.Field
+}
+
+func (o *Filter) GetMatchtype() string {
+	if o == nil {
+		return ""
+	}
+	return o.Matchtype
+}
+
+func (o *Filter) GetValue() string {
+	if o == nil {
+		return ""
+	}
+	return o.Value
+}

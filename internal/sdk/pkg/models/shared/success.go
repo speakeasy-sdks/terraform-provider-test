@@ -6,3 +6,10 @@ package shared
 type Success struct {
 	Success *bool `json:"success,omitempty"`
 }
+
+func (o *Success) GetSuccess() *bool {
+	if o == nil {
+		return nil
+	}
+	return o.Success
+}

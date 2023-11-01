@@ -17,3 +17,31 @@ type SearchUsersv1Response struct {
 	// OK
 	Users *shared.Users
 }
+
+func (o *SearchUsersv1Response) GetContentType() string {
+	if o == nil {
+		return ""
+	}
+	return o.ContentType
+}
+
+func (o *SearchUsersv1Response) GetStatusCode() int {
+	if o == nil {
+		return 0
+	}
+	return o.StatusCode
+}
+
+func (o *SearchUsersv1Response) GetRawResponse() *http.Response {
+	if o == nil {
+		return nil
+	}
+	return o.RawResponse
+}
+
+func (o *SearchUsersv1Response) GetUsers() *shared.Users {
+	if o == nil {
+		return nil
+	}
+	return o.Users
+}

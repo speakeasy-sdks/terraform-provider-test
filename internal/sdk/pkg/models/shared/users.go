@@ -7,3 +7,10 @@ type Users struct {
 	// A list of users to return.
 	Users []User `json:"users"`
 }
+
+func (o *Users) GetUsers() []User {
+	if o == nil {
+		return []User{}
+	}
+	return o.Users
+}

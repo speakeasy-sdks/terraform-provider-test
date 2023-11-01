@@ -19,3 +19,38 @@ type CreateUserv1Response struct {
 	// OK
 	User *shared.User
 }
+
+func (o *CreateUserv1Response) GetContentType() string {
+	if o == nil {
+		return ""
+	}
+	return o.ContentType
+}
+
+func (o *CreateUserv1Response) GetError() *shared.Error {
+	if o == nil {
+		return nil
+	}
+	return o.Error
+}
+
+func (o *CreateUserv1Response) GetStatusCode() int {
+	if o == nil {
+		return 0
+	}
+	return o.StatusCode
+}
+
+func (o *CreateUserv1Response) GetRawResponse() *http.Response {
+	if o == nil {
+		return nil
+	}
+	return o.RawResponse
+}
+
+func (o *CreateUserv1Response) GetUser() *shared.User {
+	if o == nil {
+		return nil
+	}
+	return o.User
+}

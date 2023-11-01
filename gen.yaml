@@ -2,22 +2,25 @@ configVersion: 1.0.0
 management:
   docChecksum: b3cde103f3a8cd2dc7100b66267790bb
   docVersion: 0.1.0
-  speakeasyVersion: 1.96.1
-  generationVersion: 2.150.0
+  speakeasyVersion: 1.109.2
+  generationVersion: 2.173.0
 generation:
   comments:
     disableComments: false
     omitDescriptionIfSummaryPresent: false
   baseServerURL: ""
+  repoURL: https://github.com/speakeasy-sdks/terraform-provider-test.git
   sdkClassName: Acme-Go
   singleTagPerOp: false
   tagNamespacingDisabled: false
 features:
   terraform:
-    core: 2.92.1
+    core: 2.93.3
     globalServerURLs: 2.82.0
     inputOutputModels: 2.81.1
 terraform:
-  version: 1.11.1
+  version: 1.12.0
   author: vitor-test
   packageName: AcmeTerraform
+  published: true
+  repoSubDirectory: .
