@@ -3,7 +3,7 @@
 package provider
 
 import (
-	tfReflect "AcmeTerraform/internal/provider/reflect"
+	tfReflect "AcmeTerraform/v2/internal/provider/reflect"
 	"context"
 	"encoding/json"
 	"fmt"

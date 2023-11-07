@@ -3,7 +3,7 @@
 package shared
 
 import (
-	"AcmeTerraform/internal/sdk/pkg/utils"
+	"AcmeTerraform/v2/internal/sdk/pkg/utils"
 	"time"
 )
 

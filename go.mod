@@ -1,4 +1,4 @@
-module AcmeTerraform
+module AcmeTerraform/v2
 
 go 1.18
 

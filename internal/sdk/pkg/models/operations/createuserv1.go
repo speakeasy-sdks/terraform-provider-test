@@ -3,7 +3,7 @@
 package operations
 
 import (
-	"AcmeTerraform/internal/sdk/pkg/models/shared"
+	"AcmeTerraform/v2/internal/sdk/pkg/models/shared"
 	"net/http"
 )
 

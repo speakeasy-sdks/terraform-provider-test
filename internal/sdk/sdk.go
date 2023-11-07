@@ -3,10 +3,10 @@
 package sdk
 
 import (
-	"AcmeTerraform/internal/sdk/pkg/models/operations"
-	"AcmeTerraform/internal/sdk/pkg/models/sdkerrors"
-	"AcmeTerraform/internal/sdk/pkg/models/shared"
-	"AcmeTerraform/internal/sdk/pkg/utils"
+	"AcmeTerraform/v2/internal/sdk/pkg/models/operations"
+	"AcmeTerraform/v2/internal/sdk/pkg/models/sdkerrors"
+	"AcmeTerraform/v2/internal/sdk/pkg/models/shared"
+	"AcmeTerraform/v2/internal/sdk/pkg/utils"
 	"bytes"
 	"context"
 	"fmt"
@@ -121,9 +121,9 @@ func New(opts ...SDKOption) *AcmeGo {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "0.1.0",
-			SDKVersion:        "1.12.0",
-			GenVersion:        "2.173.0",
-			UserAgent:         "speakeasy-sdk/go 1.12.0 2.173.0 0.1.0 AcmeTerraform",
+			SDKVersion:        "2.0.0",
+			GenVersion:        "2.181.1",
+			UserAgent:         "speakeasy-sdk/go 2.0.0 2.181.1 0.1.0 AcmeTerraform",
 		},
 	}
 	for _, opt := range opts {
@@ -489,7 +489,7 @@ func (s *AcmeGo) UpdateUserv1(ctx context.Context, request operations.UpdateUser
 		return nil, fmt.Errorf("error generating URL: %w", err)
 	}
 
-	bodyReader, reqContentType, err := utils.SerializeRequestBody(ctx, request, false, false, "UserInput", "json", `request:"mediaType=application/json"`)
+	bodyReader, reqContentType, err := utils.SerializeRequestBody(ctx, request, false, false, "User", "json", `request:"mediaType=application/json"`)
 	if err != nil {
 		return nil, fmt.Errorf("error serializing request body: %w", err)
 	}

@@ -3,7 +3,7 @@
 package boolplanmodifier
 
 import (
-	"AcmeTerraform/internal/planmodifiers/utils"
+	"AcmeTerraform/v2/internal/planmodifiers/utils"
 	"context"
 
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/planmodifier"
