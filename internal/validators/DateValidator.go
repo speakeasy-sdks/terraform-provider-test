@@ -3,10 +3,10 @@
 package validators
 
 import (
-	"AcmeTerraform/v2/internal/sdk/pkg/types"
 	"context"
 	"github.com/hashicorp/terraform-plugin-framework-validators/helpers/validatordiag"
 	"github.com/hashicorp/terraform-plugin-framework/schema/validator"
+	"github.com/vitor-test/terraform-provider-AcmeTerraform/v2/internal/sdk/pkg/types"
 )
 
 var _ validator.String = DateValidator{}

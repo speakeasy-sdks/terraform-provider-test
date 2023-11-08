@@ -3,8 +3,8 @@
 package provider
 
 import (
-	"AcmeTerraform/v2/internal/sdk"
 	"context"
+	"github.com/vitor-test/terraform-provider-AcmeTerraform/v2/internal/sdk"
 
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/provider"

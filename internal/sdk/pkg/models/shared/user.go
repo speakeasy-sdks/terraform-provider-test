@@ -3,7 +3,7 @@
 package shared
 
 import (
-	"AcmeTerraform/v2/internal/sdk/pkg/utils"
+	"github.com/vitor-test/terraform-provider-AcmeTerraform/v2/internal/sdk/pkg/utils"
 	"time"
 )
 
