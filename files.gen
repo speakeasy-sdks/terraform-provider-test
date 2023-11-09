@@ -58,6 +58,7 @@ internal/sdk/pkg/models/operations/searchusersv1.go
 internal/sdk/pkg/models/operations/updateuserv1.go
 internal/sdk/pkg/models/shared/user.go
 internal/sdk/pkg/models/shared/error.go
+internal/sdk/pkg/models/shared/userinput.go
 internal/sdk/pkg/models/shared/success.go
 internal/sdk/pkg/models/shared/users.go
 internal/sdk/pkg/models/shared/filters.go
