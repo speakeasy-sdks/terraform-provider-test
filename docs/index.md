@@ -17,7 +17,7 @@ terraform {
   required_providers {
     AcmeTerraform = {
       source  = "vitor-test/AcmeTerraform"
-      version = "2.3.3"
+      version = "2.4.0"
     }
   }
 }
