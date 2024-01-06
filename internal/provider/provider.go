@@ -4,13 +4,12 @@ package provider
 
 import (
 	"context"
-	"github.com/vitor-test/terraform-provider-AcmeTerraform/v2/internal/sdk"
-
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/provider"
 	"github.com/hashicorp/terraform-plugin-framework/provider/schema"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/types"
+	"github.com/vitor-test/terraform-provider-AcmeTerraform/v2/internal/sdk"
 )
 
 var _ provider.Provider = &AcmeTerraformProvider{}

@@ -4,15 +4,15 @@ management:
   docChecksum: b3cde103f3a8cd2dc7100b66267790bb
   docVersion: 0.1.0
   speakeasyVersion: internal
-  generationVersion: 2.225.2
-  releaseVersion: 2.5.0
-  configChecksum: 25c9bb3bd27cee149fae9d8c5d77d1c0
+  generationVersion: 2.228.1
+  releaseVersion: 2.6.0
+  configChecksum: 1a47dc4cf2888df00dbd8599226917f9
   repoURL: https://github.com/speakeasy-sdks/terraform-provider-test.git
   repoSubDirectory: .
   published: true
 features:
   terraform:
-    core: 3.7.0
+    core: 3.8.0
     globalServerURLs: 2.82.1
     inputOutputModels: 2.83.0
 generatedFiles:
