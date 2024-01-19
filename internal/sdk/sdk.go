@@ -122,8 +122,8 @@ func New(opts ...SDKOption) *AcmeGo {
 			Language:          "go",
 			OpenAPIDocVersion: "0.1.0",
 			SDKVersion:        "2.6.3",
-			GenVersion:        "2.234.3",
-			UserAgent:         "speakeasy-sdk/go 2.6.3 2.234.3 0.1.0 AcmeTerraform",
+			GenVersion:        "2.237.2",
+			UserAgent:         "speakeasy-sdk/go 2.6.3 2.237.2 0.1.0 AcmeTerraform",
 		},
 	}
 	for _, opt := range opts {
