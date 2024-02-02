@@ -1,4 +1,4 @@
-module github.com/vitor-test/terraform-provider-AcmeTerraform/v2
+module github.com/vitor-test/terraform-provider-AcmeTerraform/v3
 
 go 1.20
 
