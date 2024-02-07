@@ -4,9 +4,9 @@ management:
   docChecksum: b3cde103f3a8cd2dc7100b66267790bb
   docVersion: 0.1.0
   speakeasyVersion: internal
-  generationVersion: 2.250.2
-  releaseVersion: 3.0.1
-  configChecksum: 5949681930cfbb4dc0ee9cce8a01a553
+  generationVersion: 2.250.12
+  releaseVersion: 4.0.0
+  configChecksum: 17a9dbc7f55c1942663669b7d175d9b4
   repoURL: https://github.com/speakeasy-sdks/terraform-provider-test.git
   repoSubDirectory: .
   published: true

@@ -9,7 +9,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/provider/schema"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/vitor-test/terraform-provider-AcmeTerraform/v3/internal/sdk"
+	"github.com/vitor-test/terraform-provider-AcmeTerraform/v4/internal/sdk"
 )
 
 var _ provider.Provider = &AcmeTerraformProvider{}

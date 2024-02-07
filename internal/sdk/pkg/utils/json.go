@@ -12,7 +12,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/vitor-test/terraform-provider-AcmeTerraform/v3/internal/sdk/pkg/types"
+	"github.com/vitor-test/terraform-provider-AcmeTerraform/v4/internal/sdk/pkg/types"
 
 	"github.com/ericlagergren/decimal"
 )

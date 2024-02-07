@@ -6,10 +6,10 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/vitor-test/terraform-provider-AcmeTerraform/v3/internal/sdk/pkg/models/operations"
-	"github.com/vitor-test/terraform-provider-AcmeTerraform/v3/internal/sdk/pkg/models/sdkerrors"
-	"github.com/vitor-test/terraform-provider-AcmeTerraform/v3/internal/sdk/pkg/models/shared"
-	"github.com/vitor-test/terraform-provider-AcmeTerraform/v3/internal/sdk/pkg/utils"
+	"github.com/vitor-test/terraform-provider-AcmeTerraform/v4/internal/sdk/pkg/models/operations"
+	"github.com/vitor-test/terraform-provider-AcmeTerraform/v4/internal/sdk/pkg/models/sdkerrors"
+	"github.com/vitor-test/terraform-provider-AcmeTerraform/v4/internal/sdk/pkg/models/shared"
+	"github.com/vitor-test/terraform-provider-AcmeTerraform/v4/internal/sdk/pkg/utils"
 	"io"
 	"net/http"
 	"strings"
@@ -121,9 +121,9 @@ func New(opts ...SDKOption) *AcmeGo {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "0.1.0",
-			SDKVersion:        "3.0.1",
-			GenVersion:        "2.250.2",
-			UserAgent:         "speakeasy-sdk/go 3.0.1 2.250.2 0.1.0 AcmeTerraform",
+			SDKVersion:        "4.0.0",
+			GenVersion:        "2.250.12",
+			UserAgent:         "speakeasy-sdk/go 4.0.0 2.250.12 0.1.0 AcmeTerraform",
 		},
 	}
 	for _, opt := range opts {

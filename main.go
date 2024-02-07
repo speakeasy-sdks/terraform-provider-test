@@ -8,7 +8,7 @@ import (
 	"log"
 
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
-	"github.com/vitor-test/terraform-provider-AcmeTerraform/v3/internal/provider"
+	"github.com/vitor-test/terraform-provider-AcmeTerraform/v4/internal/provider"
 )
 
 // Run "go generate" to generate the docs for the registry/website on each regeneration of the provider.
